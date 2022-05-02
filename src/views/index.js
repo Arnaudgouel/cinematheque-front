@@ -5,5 +5,6 @@ import { Home } from "./Home";
 import { OneActeur } from "./OneActeur";
 import { OneFilm } from "./OneFilm";
 import { AdminsManage } from "./AdminsManage";
+import { Login } from "./Login";
 
-export { OneFilm, OneActeur, Home, Films, Acteurs, Admins, AdminsManage }
+export { OneFilm, OneActeur, Home, Films, Acteurs, Admins, AdminsManage, Login }

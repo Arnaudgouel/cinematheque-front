@@ -11,8 +11,9 @@ import { Search } from "./Search"
 import { AdminList } from "./AdminList"
 import { AdminRow } from "./AdminRow"
 import { AdminForm } from "./AdminForm"
+import { LoginForm } from "./LoginForm"
 
 
 
 
-export { CardFilmAlaUne, Film, FilmList, NavBar, Slider, FilmDetails, ActeurList, Acteur, ActeurDetails, Search, AdminList, AdminRow, AdminForm };
+export { CardFilmAlaUne, Film, FilmList, NavBar, Slider, FilmDetails, ActeurList, Acteur, ActeurDetails, Search, AdminList, AdminRow, AdminForm, LoginForm };

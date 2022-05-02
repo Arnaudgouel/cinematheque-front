@@ -7,6 +7,12 @@ import { Slider } from "./Slider"
 import { FilmDetails } from "./FilmDetails"
 import { Acteur } from "./Acteur"
 import { ActeurDetails } from "./ActeurDetails"
+import { Search } from "./Search"
+import { AdminList } from "./AdminList"
+import { AdminRow } from "./AdminRow"
+import { AdminForm } from "./AdminForm"
 
 
-export { CardFilmAlaUne, Film, FilmList, NavBar, Slider, FilmDetails, ActeurList, Acteur, ActeurDetails };
+
+
+export { CardFilmAlaUne, Film, FilmList, NavBar, Slider, FilmDetails, ActeurList, Acteur, ActeurDetails, Search, AdminList, AdminRow, AdminForm };

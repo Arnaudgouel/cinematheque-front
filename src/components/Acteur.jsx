@@ -13,7 +13,7 @@ const Acteur = ({item}) => {
       <span className="position-absolute top-0 translate-middle badge rounded-pill bg-danger">{item.naissance}</span>
       <div className="card-body">
         <h5 className="card-title">{item.prenom} {item.nom}</h5>
-        <p className="card-text">{item.biographie.slice(0, 200)}...</p>
+        <p className="card-text content" dangerouslySetInnerHTML={{__html: item.biographie.slice(0, 200)+ "..."}}></p>
         <div className="container-fluid">
           <div className="row">
             <div className="col"><Link to={`/acteurs/${item.id_acteur}`} className="btn btn-success">Lire la suite</Link></div>

@@ -1,7 +1,7 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import './App.css';
 import { Fragment } from 'react';
-import { Home, Films, OneFilm, Acteurs, OneActeur } from "./views";
+import { Home, Films, OneFilm, Acteurs, OneActeur, Admins, AdminsManage } from "./views";
 import { NavBar } from "./components";
 
 function App() {
@@ -15,26 +15,13 @@ function App() {
           <Route path="/films/:id" element={<OneFilm />} />
           <Route path="/acteurs" element={<Acteurs />} />
           <Route path="/acteurs/:id" element={<OneActeur />} />
+          <Route path="/admins" element={<Admins />} />
+          <Route path="/admins/add" element={<AdminsManage />} />
+          <Route path="/admins/update/:email" element={<AdminsManage />} />
           <Route path="/about" element={<Home />} />
         </Routes>
       </BrowserRouter>
-      </Fragment>
-      /* <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div> */
+    </Fragment>
   );
 }
 

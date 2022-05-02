@@ -40,7 +40,7 @@ const FilmList = () => {
                 <span className="placeholder col-6"></span>
                 <span className="placeholder col-8"></span>
               </p>
-              <p className="btn btn-primary disabled placeholder col-6"></p>
+              <p className="btn btn-success disabled placeholder col-6"></p>
             </div>
           </div>
         </div>

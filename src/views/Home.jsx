@@ -8,7 +8,7 @@ const Home = () => {
       <div className="text-center mt-5">
         <h2 >Cette semaine on aime : </h2>
         <CardFilmAlaUne/>
-        <div className="mt-5">
+        <div className="mt-5 container">
           <p className="h3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis ipsa accusantium? Dicta aperiam doloremque aliquid, rerum delectus tempore tempora. Ratione sint deleniti laboriosam commodi culpa rem tenetur natus explicabo.
             Ab cumque, nostrum repellat corrupti totam neque maxime tempore alias dolorum minus obcaecati nulla odio, earum mollitia cum quibusdam doloremque quaerat sit voluptatem tempora! Nobis officiis nihil reiciendis et quas!

@@ -43,7 +43,7 @@ const ActeurDetails = () => {
                 <span className="placeholder col-6"></span>
                 <span className="placeholder col-8"></span>
               </p>
-              <p className="btn btn-primary disabled placeholder col-6"></p>
+              <p className="btn btn-success disabled placeholder col-6"></p>
             </div>
           </div>
         </div>
@@ -54,12 +54,12 @@ const ActeurDetails = () => {
     <div className="container mt-5">
       <div className="row">
         <div className="col-md-4 col-12">
-          <img className="img-fluid" src={items.photo} alt={items.nom} />
+          <img className="img-fluid position-sticky top-0" src={items.photo} alt={items.nom} />
         </div>
         <div className="col-md-8 col-12">
           <h2>{items.prenom} {items.nom} <span className="badge rounded-pill bg-danger">{items.naissance}</span></h2>
           <h3>Lieu de naissance : {items.lieu_naissance}</h3>
-          <p>{items.biographie}</p>
+          <p className="content" dangerouslySetInnerHTML={{__html: items.biographie}}></p>
         </div>
       </div>
     </div>
